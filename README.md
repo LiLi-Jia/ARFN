@@ -32,7 +32,12 @@ python test_and_save.py --bert_model=bert-base-uncased
 If you find this useful for your research, please use the following.
 
 ```
-@ARTICLE{ 
+@article{jia2023affective,
+  title={Affective Region Recognition and Fusion Network for Target-Level Multimodal Sentiment Classification},
+  author={Jia, Li and Ma, Tinghuai and Rong, Huan and Al-Nabhan, Najla},
+  journal={IEEE Transactions on Emerging Topics in Computing},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
