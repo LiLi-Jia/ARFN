@@ -32,4 +32,4 @@ If you find this useful for your research, please use the following.
 ```
 
 ## Acknowledgments
-This code borrows from [TomBERT]([https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/jefferyYu/TomBERT)).
+This code borrows from [TomBERT](https://github.com/jefferyYu/TomBERT).
