@@ -1,8 +1,11 @@
 # ARFN
 11 ([Paper]())
 
-## Prerequisites
+## Requirement
 
+
+## Prepare
+1.following [TomBERT](https://github.com/jefferyYu/TomBERT). section Download tweet images and set up image path.
 
 ## Run
 1. train the model
