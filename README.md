@@ -6,7 +6,7 @@
 
 ## Prepare
 1. Following [TomBERT](https://github.com/jefferyYu/TomBERT) section: Download tweet images and set up image path.
-2. Train a visual sentiment classification model based on the ResNet-152 network. This data sets is provided by Yang J(http://47.105.62.179:8081/sentiment_web/datasets/LDL.tar.gz).
+2. Train a visual sentiment classification model based on the ResNet-152 network. This data sets is provided by [Yang J](http://47.105.62.179:8081/sentiment_web/datasets/LDL.tar.gz).
 3. 
 
 ## Run
