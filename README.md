@@ -2,7 +2,9 @@
 Affective Region Recognition and Fusion Network for Target-Level Multimodal Sentiment Classification ([Paper]())
 
 ## Requirement
-
+- Python 3.7
+- NVIDIA GPU + CUDA cuDNN
+- PyTorch 1.9.0
 
 ## Prepare
 1. Following [TomBERT](https://github.com/jefferyYu/TomBERT) section: Download tweet images and set up image path.
