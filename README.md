@@ -9,7 +9,7 @@ Affective Region Recognition and Fusion Network for Target-Level Multimodal Sent
 
 ## Prepare
 1. Following [TomBERT](https://github.com/jefferyYu/TomBERT) section: Download tweet images and set up image path.
-2. Train a visual sentiment classification model based on the ResNet-152 network. This data sets is provided by [Yang J[1]](http://47.105.62.179:8081/sentiment_web/datasets/LDL.tar.gz).
+2. Train a visual sentiment classification model based on the ResNet-152. This datasets is provided by [Yang J[1]](http://47.105.62.179:8081/sentiment_web/datasets/LDL.tar.gz).
 3. The Object Score and IoU Score in the image are obtained using Yolov5. Also, the Senti_score is obtained using the pre-trained model from step 2.
 
 ## Run
