@@ -13,20 +13,23 @@ Affective Region Recognition and Fusion Network for Target-Level Multimodal Sent
 3. The Object Score and IoU Score in the image are obtained using Yolov5. Also, the Senti_score is obtained using the pre-trained model from step 2.
 
 ## Run
-1. train the model
+1. search and replace relevant paths
+   res_path = 'feature path'
+
+2. train the model
 ```
 python train.py --bert_model=bert-base-uncased
 --output_dir=./user_outuptdir
---data_dir=./absa_data/twitter2015
---task_name=twitter2015
+--data_dir=./data/twitter2015 or 2017
+--task_name=twitter2015 or 2017
 --do_train
 ```
-2. test the model
+3. test the model
 ```
 python test_and_save.py --bert_model=bert-base-uncased
 --output_dir=./user_outuptdir
---data_dir=./absa_data/twitter2015
---task_name=twitter2015
+--data_dir=./data/twitter2015 or 2017
+--task_name=twitter2015 or 2017
 --do_eval
 ```
 
