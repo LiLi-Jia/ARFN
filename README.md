@@ -18,7 +18,7 @@ Affective Region Recognition and Fusion Network for Target-Level Multimodal Sent
 
 2. train the model
 ```
-python train.py --bert_model=bert-base-uncased
+python train_and_test.py --bert_model=bert-base-uncased
 --output_dir=./outupt
 --data_dir=./data/twitter2015 or 2017
 --task_name=twitter2015 or 2017
@@ -26,7 +26,7 @@ python train.py --bert_model=bert-base-uncased
 ```
 3. test the model
 ```
-python test_and_save.py --bert_model=bert-base-uncased
+python train_and_test.py --bert_model=bert-base-uncased
 --output_dir=./outupt
 --data_dir=./data/twitter2015 or 2017
 --task_name=twitter2015 or 2017
